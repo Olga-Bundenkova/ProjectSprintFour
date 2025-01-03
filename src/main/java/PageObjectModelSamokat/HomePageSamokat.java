@@ -22,7 +22,7 @@ public class HomePageSamokat {
     // Кнопка "Заказать" в header
     private By orderButtonHeader = By.className("Button_Button__ra12g");
     // Кнопка "Заказать" в body
-    private By orderButtonBody = By.xpath(".//button[@class='Button_Button__ra12g Button_Middle__1CSJM']");
+    private By orderButtonBody = By.xpath("//div[contains(@class, 'Home_RoadMap__2tal_')]//div[contains(@class, 'Home_FinishButton__1_cWm')]//button[contains(text(), 'Заказать')]");
     // Раздел "Вопросы о важном"
     private By questionsHeader = By.className("Home_FourPart__1uthg");
 

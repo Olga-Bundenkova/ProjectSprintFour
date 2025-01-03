@@ -47,7 +47,7 @@ public class HomePageSamokatTests {
     public void startUp() {
         // драйвер для браузера Chrome
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox", "--headless", "--disable-dev-shm-usage");
+
         driver = new ChromeDriver(options);
         // переход на страницу тестового приложения
         driver.get("https://qa-scooter.praktikum-services.ru/");
